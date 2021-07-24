@@ -32,10 +32,7 @@ package com.raywenderlich.android.wishlist.app
 
 import com.raywenderlich.android.wishlist.DetailViewModel
 import com.raywenderlich.android.wishlist.MainViewModel
-import com.raywenderlich.android.wishlist.persistance.Repository
-import com.raywenderlich.android.wishlist.persistance.RepositoryImpl
-import com.raywenderlich.android.wishlist.persistance.WishlistDao
-import com.raywenderlich.android.wishlist.persistance.WishlistDaoImpl
+import com.raywenderlich.android.wishlist.persistance.*
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

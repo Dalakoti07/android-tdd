@@ -33,7 +33,12 @@ package com.raywenderlich.android.wishlist.persistance
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Transformations
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import com.raywenderlich.android.wishlist.Wishlist
+
 
 interface WishlistDao {
 
